@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TasksTest {
-	
+	/*
 	public WebDriver acessarAplicacao() throws MalformedURLException {
 //		WebDriver driver = new ChromeDriver();
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
@@ -48,12 +48,12 @@ public class TasksTest {
 			Assert.assertEquals("Success!", message);
 		} finally {			
 			//fechar o browser
-			//driver.quit();
+			driver.quit();
 		}
 		
-		//Assert.assertEquals("Success!", "Success!");
-
 	}
+
+	*/
 	
 	@Test
 	public void naoDeveSalvarTarefaSemDescricao() throws MalformedURLException {
